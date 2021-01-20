@@ -1,0 +1,57 @@
+
+
+.profileSectionHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.profilSectionWrapper {
+  height: 600px;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%
+}
+.header {
+  font-size: 35px;
+}
+.sectionProfileHr {
+  width: 25%;
+  height: 1px;
+  background-color: black;
+}
+.fontStyle {
+  color: #E27D60;
+}
+.slogan {
+  font-style: italic;
+  font-size: 20px;
+
+}
+.socialLink {
+  margin-left: 10px;
+  
+}
+
+.profilePicture {
+  height: 250%;
+  width: auto;
+  margin-right: 2%;
+  
+}
+.profilePicture:hover {
+ 
+}
+
+.aboutMeDiv {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+.aboutMeArticle {
+  width: 300px;
+  text-align: justify;
+}
