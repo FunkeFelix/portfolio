@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "./Education.css";
+import ComponentDraw from "../../images/componentDraw.svg";
 
 const Education = () => {
   const [state, setState] = useState({
-    Ironhack: true,
+    Ironhack: false,
     Triagon: false,
     CVS: false,
     Lynnfield: false,
@@ -40,7 +41,7 @@ const Education = () => {
             B.Sc. Business Management - Marketing
           </button>
           <button className="glow-on-hover" onClick={() => openCity("CVS")}>
-            Technical College Certificate
+            Economics College Certificate
           </button>
           <button
             className="glow-on-hover"
@@ -119,7 +120,9 @@ const Education = () => {
             state.Ironhack === false &&
             state.CVS === false &&
             state.Lynnfield === false && (
-              <div>make sure to click the buttons :(</div>
+              <div className="infoMissing">
+                <img src={ComponentDraw} alt="drawing of components" />
+              </div>
             )}
         </div>
       </div>

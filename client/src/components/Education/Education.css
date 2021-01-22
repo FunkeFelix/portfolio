@@ -102,6 +102,7 @@
 .contentHeader {
   color: #EDF5E1;
   font-size: 25px;
+  margin-bottom: 5px;
 }
 
 .educationText {
@@ -112,4 +113,17 @@
   width: 50%;
   color: white;
   font-size: 20px;
+}
+
+.educationText li {
+  margin-top: 2%;
+  margin-left: 10%;
+  padding-bottom: 2%;
+}
+.infoMissing {
+  text-align: center;
+}
+.infoMissing img {
+  height: 75%;
+  width: auto;
 }
