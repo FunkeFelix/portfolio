@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-scroll";
 import "./NavBar.scss";
 
 const NavBar = () => {
@@ -23,18 +24,46 @@ const NavBar = () => {
     <div>
       <header className={navbarClasses.join(" ")}>
         <nav className="navigation">
-          <a className="navLink" href="#profile">
+          <Link
+            to="profile"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="navLink"
+          >
             Profile
-          </a>
-          <a className="navLink" href="#education">
+          </Link>
+          <Link
+            to="education"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="navLink"
+          >
             Education
-          </a>
-          <a className="navLink" href="#work">
+          </Link>
+          <Link
+            to="work"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="navLink"
+          >
             Work Experience
-          </a>
-          <a className="navLink" href="#projects">
+          </Link>
+          <Link
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="navLink"
+          >
             Projects
-          </a>
+          </Link>
         </nav>
       </header>
     </div>

@@ -1,0 +1,25 @@
+.switchWrapper {
+ margin-top: 10vh;
+ background-color: #7395AE;
+}
+
+.switchDiv {
+  
+  
+}
+
+.switchFlex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+
+.checked {
+  color: #EDF5E1;
+  font-size: 35px;
+}
+
+.offChecked {
+  font-size: 35px;
+}

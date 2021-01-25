@@ -1,9 +1,11 @@
 import "./App.css";
 import SectionHeader from "./components/sectionHeader/sectionHeader";
 import Profile from "./components/Profile/Profile";
-import Workexpirience from "./components/Workexpirience/Workexpirience";
+
 import NavBar from "./components/navBar/NavBar";
-import Education from "./components/Education/Education";
+
+import Projects from "./components/Projetcs/Projects";
+import MaterialDesignSwitch from "./components/Switch/Switch";
 
 function App() {
   return (
@@ -12,8 +14,9 @@ function App() {
       <NavBar />
 
       <Profile />
-      <Education />
-      <Workexpirience />
+      <MaterialDesignSwitch />
+
+      <Projects />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom";
 import "./Workexpirience.css";
-import SearchDraw from "../../images/searchDraw.svg";
+import ComponentDraw from "../../images/componentDraw.svg";
 
 const Workexpirience = () => {
   const [state, setState] = useState({
@@ -26,9 +26,7 @@ const Workexpirience = () => {
     }
   };
   return (
-    <div className="jobDiv">
-      <h2 className="workExpirienceH2">Work Expirience</h2>
-
+    <div className="jobDiv" id="work">
       <div className="jobWrapper">
         <div className="buttonWrapper">
           <button className="glow-on-hover" onClick={() => changeHandler("TA")}>
@@ -53,7 +51,7 @@ const Workexpirience = () => {
             Alpro Medical GmbH
           </button>
         </div>
-        <div id="work">
+        <div>
           {state.TA && (
             <div className="workText">
               <h4 className="contentHeader"> Teaching Assistant </h4>
@@ -141,11 +139,14 @@ const Workexpirience = () => {
               </ul>
             </div>
           )}
-          {state.Alpro && state.Cube && state.Myspotti && state.TA && (
-            <div className="missingInfo">
-              <img src={SearchDraw} alt="search drawing" />
-            </div>
-          )}
+          {state.Alpro === false &&
+            state.Cube === false &&
+            state.Myspotti === false &&
+            state.TA === false && (
+              <div className="infoMissing">
+                <img src={ComponentDraw} alt="missing info component" />
+              </div>
+            )}
         </div>
       </div>
     </div>

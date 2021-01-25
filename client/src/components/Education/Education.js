@@ -27,8 +27,6 @@ const Education = () => {
 
   return (
     <div id="education">
-      <h2 className="educationh2">Education</h2>
-
       <div className="educationWrapper">
         <div className="tab educationButtons">
           <button

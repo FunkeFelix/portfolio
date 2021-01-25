@@ -11,9 +11,7 @@ const Profile = () => {
       <div className="profilSectionWrapper">
         <div className="profileSectionHeader">
           <h2 className="fontStyle header">Profile</h2>
-          <span className=" slogan">
-            I am a Business oriented Web Developer
-          </span>
+          <span className="slogan">I am a Business oriented Web Developer</span>
         </div>
 
         <div className="aboutMeDiv">
