@@ -9,7 +9,7 @@ const sectionHeader = (props) => {
       <div className="headline">
         <h1>Felix Michael Funke</h1>
         <hr className="sectionHeaderHr" />
-        <p>portfolio page </p>
+        <p>Full Stack Web Developer && B.Sc. Business Management- Marketing </p>
       </div>
     </div>
   );

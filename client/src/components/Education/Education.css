@@ -97,7 +97,7 @@
 .contentHeader {
   color: #EDF5E1;
   font-size: 25px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .educationText {
@@ -119,6 +119,7 @@
   text-align: center;
 }
 .infoMissing img {
-  height: 75%;
+  height: 50vh;
   width: auto;
+  margin-right: 30vh;
 }

@@ -51,9 +51,9 @@ const Workexpirience = () => {
             Alpro Medical GmbH
           </button>
         </div>
-        <div>
+        <div className="workText">
           {state.TA && (
-            <div className="workText">
+            <div>
               <h4 className="contentHeader"> Teaching Assistant </h4>
               Teaching Assistant for the 9-Week Web Development Bootcamp.
               Helping Students to understand the first concepts of Web
@@ -68,7 +68,7 @@ const Workexpirience = () => {
             </div>
           )}
           {state.Myspotti && (
-            <div className="workText">
+            <div>
               <h4 className="contentHeader">Sales Executive</h4>
               mySPOTTi GmbH is a manufacturer based in South-Germany which
               creates Interior-Design products with a functionality. As Sales
@@ -102,7 +102,7 @@ const Workexpirience = () => {
             </div>
           )}
           {state.Cube && (
-            <div className="workText">
+            <div>
               <h4 className="contentHeader"> CEO </h4>
               After investigating the potential market for digital print
               products within the interior-design industry, I was building up a
@@ -122,7 +122,7 @@ const Workexpirience = () => {
             </div>
           )}
           {state.Alpro && (
-            <div className="workText">
+            <div>
               <h4 className="contentHeader">Area Sales Manager Export</h4>
               Alpro Medical GmbH is a manufacturer for disinfections mainly used
               within the dental industry. As part of the Sales Team I was
@@ -142,11 +142,7 @@ const Workexpirience = () => {
           {state.Alpro === false &&
             state.Cube === false &&
             state.Myspotti === false &&
-            state.TA === false && (
-              <div className="infoMissing">
-                <img src={ComponentDraw} alt="missing info component" />
-              </div>
-            )}
+            state.TA === false && <div className="infoMissing"></div>}
         </div>
       </div>
     </div>

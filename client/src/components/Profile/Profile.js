@@ -6,6 +6,20 @@ import ProfilePicture from "../../images/felix.png";
 import { Linkedin, Mail, GitHub } from "react-feather";
 
 const Profile = () => {
+  const calculateAge = () => {
+    let today = new Date();
+    const birthDate = new Date("06/01/1994");
+    let ageNow = today.getFullYear() - birthDate.getFullYear();
+    let m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+      ageNow--;
+    }
+
+    return ageNow;
+  };
+
+  calculateAge();
+
   return (
     <div id="profile">
       <div className="profilSectionWrapper">
@@ -37,7 +51,7 @@ const Profile = () => {
             <p></p>
             <span>Name:</span> <span>Felix Michael Funke</span>
             <p></p>
-            <span>Age:</span> <span>26</span>
+            <span>Age:</span> <span>{calculateAge()}</span>
             <p></p>
             <span>Location:</span> <span>Berlin, Germany</span>
             <p></p>
