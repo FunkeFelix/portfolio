@@ -1,6 +1,7 @@
 .switchWrapper {
  margin-top: 10vh;
- background-color: #7395AE;
+ background-color: #393e46;
+ 
 }
 
 .switchDiv {
@@ -16,10 +17,12 @@
 }
 
 .checked {
-  color: #EDF5E1;
+  color: #eeeeee;
   font-size: 35px;
+  text-decoration: underline;
 }
 
 .offChecked {
+  color: #eeeeee;
   font-size: 35px;
 }

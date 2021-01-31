@@ -3,9 +3,9 @@ import SectionHeader from "./components/sectionHeader/sectionHeader";
 import Profile from "./components/Profile/Profile";
 
 import NavBar from "./components/navBar/NavBar";
-
+import TimeLine from "./components/TimeLine/TimeLine";
 import Projects from "./components/Projetcs/Projects";
-import MaterialDesignSwitch from "./components/Switch/Switch";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,8 +14,7 @@ function App() {
       <NavBar />
 
       <Profile />
-      <MaterialDesignSwitch />
-
+      <TimeLine />
       <Projects />
     </div>
   );

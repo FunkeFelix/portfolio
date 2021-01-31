@@ -30,7 +30,9 @@ const Profile = () => {
 
         <div className="aboutMeDiv">
           <div>
-            <h3 className="fontStyle">About Me</h3>
+            <h3 className="fontStyle" style={{ marginBottom: 5 }}>
+              About Me
+            </h3>
             <div className="aboutMeArticle">
               I am an aspiring Full Stack Web Developer with extensive knowledge
               about Business. After working as a sales executive and finishing
@@ -39,45 +41,65 @@ const Profile = () => {
               work now as Teachign Assistant.
             </div>
           </div>
-          <div className="profilePicture">
-            <img
-              className="profilePicture"
-              src={ProfilePicture}
-              alt="Profile Picture Felix"
-            />
-          </div>
+
+          <img
+            className="profilePicture"
+            src={ProfilePicture}
+            height="250px"
+            alt="Profile Picture Felix"
+          />
+
           <div>
-            <h3 className="fontStyle">Details</h3>
-            <p></p>
-            <span>Name:</span> <span>Felix Michael Funke</span>
-            <p></p>
-            <span>Age:</span> <span>{calculateAge()}</span>
-            <p></p>
-            <span>Location:</span> <span>Berlin, Germany</span>
-            <p></p>
-            <span>From:</span> <span>Lake Constance, Germany</span>
-            <p></p>
-            <a
-              className="socialLink"
-              target="_blank"
-              href="https://www.linkedin.com/in/felix-funke-b1a9561b3/"
-            >
-              <Linkedin />
-            </a>{" "}
-            <a
-              className="socialLink"
-              target="_blank"
-              href="mailto:felixfunke456@gmail.com"
-            >
-              <Mail />
-            </a>{" "}
-            <a
-              className="socialLink"
-              target="_blank"
-              href="https://github.com/FunkeFelix"
-            >
-              <GitHub />
-            </a>
+            <div className="details container">
+              <h3
+                className="fontStyle "
+                style={{ marginBottom: 5, marginTop: 0, color: "#ffffff" }}
+              >
+                Details
+              </h3>
+              <div style={{ marginBottom: 5 }}>
+                <span>Name:</span> <span>Felix Michael Funke</span>
+              </div>
+              <div>
+                <span style={{ marginBottom: 5 }}>Age:</span>{" "}
+                <span>{calculateAge()}</span>
+              </div>
+              <div style={{ marginBottom: 5 }}>
+                <span>Location:</span> <span>Berlin, Germany</span>
+              </div>
+              <div style={{ marginBottom: 5 }}>
+                <span>From:</span> <span>Lake Constance, Germany</span>
+              </div>
+              <div
+                style={{
+                  marginTop: 20,
+                  display: "flex",
+                  justifyContent: "flex-end",
+                }}
+              >
+                <a
+                  className="socialLink"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/felix-funke-b1a9561b3/"
+                >
+                  <Linkedin color="#ffffff" size={24} />
+                </a>{" "}
+                <a
+                  className="socialLink"
+                  target="_blank"
+                  href="mailto:felixfunke456@gmail.com"
+                >
+                  <Mail color="#ffffff" size={24} />
+                </a>{" "}
+                <a
+                  className="socialLink"
+                  target="_blank"
+                  href="https://github.com/FunkeFelix"
+                >
+                  <GitHub color="#ffffff" size={24} />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

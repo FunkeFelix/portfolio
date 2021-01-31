@@ -5,7 +5,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: #eee;
+  background-color: rgb(255, 255, 255);;
   transition: all .7s ease-in;
  
 }
@@ -14,7 +14,10 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #B1A296;
+  background-color: rgb(255, 255, 255);
+  color: #393e46;
+  box-shadow: 0 4px 2px -2px #00adb5 ;
+  z-index: 100;
 }
 
 //#B1A296  #5CDB95
@@ -32,14 +35,13 @@
 
 .navLink {
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  
   margin-right: 75px;
   border-radius: 25%;
-  color: #2a2a2c;
+  
   
   
 }
 .navLink:hover {
-  background-color: lightsalmon;
-  box-shadow: black;
+  text-decoration: underline;
 }

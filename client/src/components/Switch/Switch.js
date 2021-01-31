@@ -31,10 +31,10 @@ class MaterialDesignSwitch extends Component {
                 <Switch
                   checked={this.state.checked}
                   onChange={this.handleChange}
-                  onColor="#2E8C74"
-                  offColor="#B3641F"
-                  onHandleColor="#2E8C74"
-                  offHandleColor="#B3641F"
+                  onColor="#00ADB5"
+                  offColor="#00ADB5"
+                  onHandleColor="#00ADB5"
+                  offHandleColor="#00ADB5"
                   handleDiameter={30}
                   uncheckedIcon={false}
                   checkedIcon={false}

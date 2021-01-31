@@ -1,11 +1,13 @@
 
-
+#profile {
+  height: 100vh;
+}
 .profileSectionHeader {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
 }
 .profilSectionWrapper {
   height: 600px;
@@ -13,9 +15,20 @@
   margin-left: 10%;
   margin-right: 10%
 }
+
+@media (max-width: 868px) {
+
+  .profileSectionHeader {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+}
+
 .header {
   font-size: 35px;
-  color: #E27D60;
+  color: #222831;
+
 }
 .sectionProfileHr {
   width: 25%;
@@ -23,52 +36,60 @@
   background-color: black;
 }
 .fontStyle {
-  color: #E27D60;
+  color: #222831;
+  
 }
 .slogan {
   font-style: italic;
   font-size: 20px;
   margin-top: 15px;
+  margin-bottom: 30px;
 }
 
-.slogan:hover {
-  -webkit-mask-image: linear-gradient(-75deg, rgba(162, 111, 48, 0.6) 30%, #000 50%, rgba(162, 111, 48, 0.6) 70%);
-  -webkit-mask-size: 200%;
-  animation: shine 2s infinite;
-}
 
-@-webkit-keyframes shine {
-  from {
-    -webkit-mask-position: 150%;
-  }
-  
-  to {
-    -webkit-mask-position: -50%;
-  }
-}
+
 .socialLink {
   margin-left: 10px;
   
 }
 
 .profilePicture {
-  height: 250%;
   width: auto;
-  margin-right: 2%;
-  
-}
-.profilePicture:hover {
- 
+  margin: 50px;
+
 }
 
+
 .aboutMeDiv {
-  height: 50px;
+
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
+
   font-size: 20px;
+  margin-left: 3%;
+ 
 }
 .aboutMeArticle {
   width: 300px;
-  text-align: justify;
+  text-align: left;
+  line-height: 1.42;
 }
+
+
+.details {
+   
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.125s;
+    width: 288px;
+    height: auto;
+    background-color: #00adb5;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .details:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
