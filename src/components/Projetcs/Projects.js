@@ -258,6 +258,7 @@ const Projects = () => {
               </Fade>
             </div>
           </div>
+          <div className="bottomMargin"></div>
         </div>
       </div>
     </div>

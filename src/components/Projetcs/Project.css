@@ -9,6 +9,7 @@
   margin-bottom: 15vh;
   color: #eeeeee;
   font-size: 35px;
+  margin-top: 5vh;
 }
 
 .projectHeader {
@@ -26,6 +27,10 @@
 }
 .flexBox {
   display: flex;
+}
+
+.bottomMargin {
+  height: 10vh;
 }
 
 

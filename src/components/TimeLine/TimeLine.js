@@ -33,8 +33,15 @@ const TimeLine = () => {
               Berlin, Germany @Ironhack
             </h4>
             <p>
-              Web Development Bootcamp, working close with Team and Students to
-              ensure education
+              Web Development Bootcamp, working close with team and tutoring
+              students to ensure an understanding of the education plan.
+              Tech-Stack:
+              <ul className="workList">
+                <li>JavaScript</li>
+                <li>HTML | CSS</li>
+                <li>Node.js | express.js | MongoDB</li>
+                <li>React</li>
+              </ul>
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -65,7 +72,7 @@ const TimeLine = () => {
             </h4>
             <p>
               Business Development, Building Supply Chain, Evaluating Suppliers,
-              Setting fundamental Strategy for and with customers
+              setting fundamental Strategy for and with customers
             </p>
           </VerticalTimelineElement>
 
@@ -95,7 +102,10 @@ const TimeLine = () => {
             <h4 className="vertical-timeline-element-subtitle">
               Lake Constance, BW @MSI MedServ International DE GmbH
             </h4>
-            <p>Apprentisship to gain first expirience and knowledge</p>
+            <p>
+              Apprentisship to gain first expirience and knowledge about all
+              different aspects of business management and interantional markets{" "}
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             id="education"
