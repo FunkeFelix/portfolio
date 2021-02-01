@@ -103,7 +103,7 @@ const TimeLine = () => {
               Lake Constance, BW @MSI MedServ International DE GmbH
             </h4>
             <p>
-              Apprentisship to gain first expirience and knowledge about all
+              Apprentisship to gain first experience and knowledge about all
               different aspects of business management and interantional markets{" "}
             </p>
           </VerticalTimelineElement>
