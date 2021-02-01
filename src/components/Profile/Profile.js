@@ -38,7 +38,7 @@ const Profile = () => {
               about Business. After working as a sales executive and finishing
               my BA in Marketing, I wanted to be able to build my ideas from the
               start. Recently I finished a Web Development Bootcamp for which I
-              work now as Teachign Assistant.
+              work now as a Teaching Assistant.
             </div>
           </div>
 
