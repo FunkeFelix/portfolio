@@ -14,7 +14,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 const TimeLine = () => {
   return (
-    <div>
+    <div className="timeLineWrapper">
       <div>
         <VerticalTimeline>
           <VerticalTimelineElement

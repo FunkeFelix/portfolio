@@ -1,4 +1,6 @@
-.projectsDiv {
+
+
+ .projectsDiv {
   background-color: #00adb5;
   display: flex;
   flex-direction: column;
@@ -13,7 +15,7 @@
 }
 
 .projectHeader {
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 30px;
   color: #eeeeee;
   margin-bottom: 15px;
@@ -22,7 +24,7 @@
 .projectWrapper {
   height: auto;
   width: 100vh;
-  margin-left: 25%;
+  margin-left: 5%;
 
 }
 .flexBox {
@@ -38,7 +40,7 @@
 .each-fade {
   display: flex;
   height: auto;
-  width: 100%;
+  width: 50%;
 }
 
 .each-fade > div {
@@ -70,9 +72,97 @@
 
 .slideWrapper {
   display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	
-	align-content: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
   
+  align-content: flex-start;
+  
+}
+
+.footerSlogan {
+  font-style:oblique;
+  font-size:10px;
+  margin-left: 30%;
+}
+
+@media only screen and (min-width:768px) {
+
+  .projectsDiv {
+    background-color: #00adb5;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+  }
+  .headerProjects {
+    text-align: center;
+    margin-bottom: 15vh;
+    color: #eeeeee;
+    font-size: 35px;
+    margin-top: 5vh;
+  }
+  
+  .projectHeader {
+    font-size: 30px;
+    margin-top: 30px;
+    color: #eeeeee;
+    margin-bottom: 15px;
+  }
+  
+  .projectWrapper {
+    height: auto;
+    width: 100vh;
+    margin-left: 25%;
+  
+  }
+  .flexBox {
+    display: flex;
+  }
+  
+  .bottomMargin {
+    height: 10vh;
+  }
+  
+  
+  
+  .each-fade {
+    display: flex;
+    height: auto;
+    width: 100%;
+  }
+  
+  .each-fade > div {
+    width:80%;
+  }
+  
+  .each-fade > div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .each-fade p {
+    width: 25%;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #393e46;
+  }
+  
+  .sliderText {
+    line-height: 1.42;
+    color: #fff;
+  }
+  
+  .slideWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    align-content: flex-start;
+    
+  }
 }

@@ -18,6 +18,7 @@ import P3endingScreen from "../../images/projectThree/endingScreen.png";
 import P3gameScreen from "../../images/projectThree/gameScreen.png";
 import P3jaegerScreen from "../../images/projectThree/jaegerScreen.png";
 import { ExternalLink } from "react-feather";
+import { Heart} from "react-feather"
 
 const Projects = () => {
   const projectOne = [
@@ -65,7 +66,7 @@ const Projects = () => {
               target="_blank"
               href="https://iron-collab.herokuapp.com/"
             >
-              <ExternalLink color="#eeeeee" size={24} />
+              <ExternalLink color="#eeeeee" size={20} />
             </a>
           </div>
           <div className="slideWrapper">
@@ -261,6 +262,7 @@ const Projects = () => {
           <div className="bottomMargin"></div>
         </div>
       </div>
+      <p className="footerSlogan">made by Felix with <Heart color="#393e46" size={10} /> </p>
     </div>
   );
 };

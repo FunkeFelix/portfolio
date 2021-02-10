@@ -1,3 +1,12 @@
-.workList {
-  margin-left: 30px;
+
+.timeLineWrapper {
+  margin-top: 20vh;
+}
+
+
+@media only screen and (min-width:768px) {
+  
+  .workList {
+    margin-left: 30px;
+  }
 }

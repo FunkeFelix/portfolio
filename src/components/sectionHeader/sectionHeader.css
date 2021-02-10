@@ -1,36 +1,18 @@
-html {
-  background-position:1000px 40px ;
-}
 
-.sectionHeaderHr {
-  width: 250px;
-  height: 3px;
-  background-color: rgb(255,255,255);
-  margin-top: 10px;
-  margin-bottom: 10px;
-  outline: none;
-}
+
 
 .sectionHeaderDiv {
-  background: url("../../images/backgroundKn.jpg") fixed ; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background: url("../../images/mobileBackground.jpg")  ;
     background-position: center;
+    
     height: 100vh;
     
-    
-}
-
-.backgroundWrapper {
-  
 }
 
 .headline {
   color: rgb(255,255,255);
   text-align: center;
-  font-size: 30px;
+  font-size: 15px;
   background: rgb(255,255,255);
 background: linear-gradient(188deg, rgba(0,0,0,0.1) 17%, rgba(0,0,0,0.85) 100%);
   overflow: hidden;
@@ -43,5 +25,55 @@ background: linear-gradient(188deg, rgba(0,0,0,0.1) 17%, rgba(0,0,0,0.85) 100%);
     flex-direction: column;
    
   
+}
+
+@media only screen and (min-width:768px) {
+  html {
+    background-position:1000px 40px ;
+  }
+  
+  .sectionHeaderHr {
+    width: 250px;
+    height: 3px;
+    background-color: rgb(255,255,255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+  }
+  
+  .sectionHeaderDiv {
+    background: url("../../images/backgroundKn.jpg") fixed ; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      
+      
+  }
+  
+  .backgroundWrapper {
+    
+  }
+  
+  .headline {
+    color: rgb(255,255,255);
+    text-align: center;
+    font-size: 30px;
+    background: rgb(255,255,255);
+  background: linear-gradient(188deg, rgba(0,0,0,0.1) 17%, rgba(0,0,0,0.85) 100%);
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+     
+    
+  }
+
 }
 
