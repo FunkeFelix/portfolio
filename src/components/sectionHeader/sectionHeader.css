@@ -2,8 +2,9 @@
 
 
 .sectionHeaderDiv {
-  background: url("../../images/mobileBackground.jpg")  ;
+  background: url("../../images/backgroundKNmedium.jpg")  ;
     background-position: center;
+    background-repeat: no-repeat;
     
     height: 100vh;
     

@@ -3,6 +3,8 @@ import useSound from "use-sound";
 import ReactDOM from "react-dom";
 import "./Profile.css";
 import ProfilePicture from "../../images/felix.png";
+import TrachtProfile from "../../images/ellipsTrachtZwei.png";
+import TrachtZweiProfile from "../../images/ellipsTracht.png";
 import { Linkedin, Mail, GitHub } from "react-feather";
 
 const Profile = () => {
@@ -45,7 +47,7 @@ const Profile = () => {
 
           <img
             className="profilePicture"
-            src={ProfilePicture}
+            src={TrachtZweiProfile}
             height="250px"
             alt="Profile Picture Felix"
           />
