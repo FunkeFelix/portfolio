@@ -7,11 +7,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 180vh;
+  height: 110vh;
 }
 
 .project__img {
-  height: 250px;
+  height: 150px;
   width: auto;
   
 }
@@ -19,13 +19,13 @@
 .projectDiv > h3 {
   margin-bottom: 5vh;
   color: #eeeeee;
-  font-size: 35px;
+  font-size: 20px;
   margin-top: 5vh;
 }
 
 .project__header {
   text-align: center;
-  padding-top: 50px ;
+  padding-top: 35px ;
   color: #eeeeee;
   font-size: 35px;
   background-color: #00adb5;

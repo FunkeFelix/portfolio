@@ -1,12 +1,10 @@
 
-body {
-  min-width: 100vh;
-}
+
 
 
  #profile {
-  height: 180vh;
-  margin-bottom: 50vh ;
+  height: 130vh;
+  margin-bottom: 20vh ;
 }
 .profileSectionHeader {
   display: flex;
@@ -24,7 +22,7 @@ body {
 }
 
 .header {
-  font-size: 50px;
+  font-size: 35px;
   color: #222831;
   margin-top: 10vh;
 }
@@ -40,7 +38,7 @@ body {
 }
 .slogan {
   font-style: italic;
-  font-size: 30px;
+  font-size: 15px;
   margin-top: 15px;
   margin-bottom: 30px;
 }
@@ -52,8 +50,8 @@ body {
 
 .profilePicture {
   width: auto;
-  height: 400px;
- margin: 150px;
+  height: 200px;
+ margin: 50px;
 }
 
 
@@ -63,7 +61,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  font-size: 30px;
+  font-size: 15px;
   margin-top: 7vh;
   
   
@@ -80,7 +78,7 @@ body {
    
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.125s;
-    width: 450px;
+    width: 288px;
     height: auto;
     background-color: #00adb5;
     color: #ffffff;

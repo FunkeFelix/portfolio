@@ -1,9 +1,4 @@
 
-body {
-  min-width: 100vh;
-  margin:0;
-  padding: 0;
-}
 
 
 .sectionHeaderDiv {
@@ -13,7 +8,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
-  height: 220vh;
+  height: 100vh;
     
 }
 
