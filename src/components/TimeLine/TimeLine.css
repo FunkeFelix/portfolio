@@ -1,6 +1,21 @@
+body {
+  min-width: 100vh;
+}
+
 
 .timeLineWrapper {
   margin-top: 20vh;
+}
+.workList {
+  margin-left: 10%;
+}
+
+.vertical-timeline-element--work {
+  width: 80%
+}
+
+.vertical-timeline-element--education {
+  width: 80%;
 }
 
 

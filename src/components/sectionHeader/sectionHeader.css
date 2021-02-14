@@ -1,10 +1,19 @@
 
+body {
+  min-width: 100vh;
+  margin:0;
+  padding: 0;
+}
 
 
 .sectionHeaderDiv {
-  background: url("../../images/backgroundKNmedium.jpg")  ;
-    background-position: center;
-    background-repeat: no-repeat;
+  background: url("../../images/mobileBackground.jpg") fixed ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
     
     height: 100vh;
     
@@ -54,9 +63,7 @@ background: linear-gradient(188deg, rgba(0,0,0,0.1) 17%, rgba(0,0,0,0.85) 100%);
       
   }
   
-  .backgroundWrapper {
-    
-  }
+
   
   .headline {
     color: rgb(255,255,255);

@@ -1,7 +1,12 @@
 
+body {
+  min-width: 100vh;
+}
+
 
  #profile {
   height: 100vh;
+  margin-bottom: 50vh ;
 }
 .profileSectionHeader {
   display: flex;
@@ -46,9 +51,8 @@
 
 .profilePicture {
   width: auto;
-  height: 200px;
- margin: 25px;
-
+  height: 250px;
+ margin: 35px;
 }
 
 
@@ -58,8 +62,9 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  font-size: 15px;
-  margin-bottom: 25px;
+  font-size: 20px;
+  margin-top: 7vh;
+  margin-bottom: 20vh;
   
  
 }
@@ -74,7 +79,7 @@
    
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.125s;
-    width: 288px;
+    width: 450px;
     height: auto;
     background-color: #00adb5;
     color: #ffffff;
@@ -88,14 +93,14 @@
 
 @media only screen and (min-width:768px) {
   #profile {
-    height: 100vh;
+    height: 70vh;
   }
   .profileSectionHeader {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5vh;
+    
   }
   .profilSectionWrapper {
     height: 600px;

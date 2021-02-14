@@ -124,7 +124,7 @@ const TimeLine = () => {
               In this intensive 3-Month Bootcamp I have learned to design and
               build a robust full-stack web application from end-to-end using
               JavaScript in the front-end and the back-end.
-              <ul>
+              <ul className="workList">
                 <li>HTML | CSS </li>
                 <li>Node.js | express.js | Handlebars | MongoDB </li>
                 <li>React</li>
