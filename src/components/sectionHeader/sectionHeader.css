@@ -3,9 +3,7 @@
 
 .sectionHeaderDiv {
   background: url("../../images/mobileBackground.jpg") fixed ;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+ 
   background-size: cover;
   background-position: center;
   height: 100vh;

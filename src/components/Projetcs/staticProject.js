@@ -10,7 +10,7 @@ import { Heart} from "react-feather"
 const staticProjects = () => {
 
   return (
-    <div id="projects" >
+    <div id="project" >
       <div>
       <h2 className="project__header">Projects</h2>
       </div>

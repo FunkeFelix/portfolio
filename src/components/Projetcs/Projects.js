@@ -53,7 +53,7 @@ const Projects = () => {
 
   return (
     <div className="projectsDiv">
-      <h2 className="headerProjects" id="projects">
+      <h2 className="headerProjects" id="project">
         Projects
       </h2>
       <div className="projectWrapper">
