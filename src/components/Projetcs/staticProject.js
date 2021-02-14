@@ -13,7 +13,6 @@ const staticProjects = () => {
     <div id="projects" >
       <div>
       <h2 className="project__header">Projects</h2>
-
       </div>
 
     <div className="projects__wrapper">
